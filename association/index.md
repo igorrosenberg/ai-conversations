@@ -1,7 +1,7 @@
-h2. Disclaimer
+# Disclaimer
 
 disclaimer
 
-h2. Thought process
+# Thought process
 
 create association in France

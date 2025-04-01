@@ -1,5 +1,5 @@
 # ai-conversations
 
-Keeping track of prompts and answers
+Keeping track of prompts and answers.
 
-1. See [association](association)
+1. See [association](association/index.md)
