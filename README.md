@@ -2,4 +2,6 @@
 
 Keeping track of prompts and answers.
 
-1. See [association](association/index.md)
+:warning: [disclaimer](<disclaimer.md>) :warning:
+
+[association/](association/index.md)
