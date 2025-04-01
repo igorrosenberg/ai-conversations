@@ -1,6 +1,6 @@
 # Disclaimer
 
-[disclaimer](disclaimer.md)
+[disclaimer](<disclaimer.md>)
 
 # Thought process
 
