@@ -1,5 +1,5 @@
+* [_create association in France](<_create association in France.md>)
 * [activities](<activities.md>)
-* [create association in France](<create association in France.md>)
 * [details on Honorary Fees](<details on Honorary Fees.md>)
 * [founders receive payment](<founders receive payment.md>)
 * [purpose statement](<purpose statement.md>)
