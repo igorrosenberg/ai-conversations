@@ -8,8 +8,9 @@ Creating an association in France is a fairly straightforward process but requir
    - You need at least **two people** to form an association. These founders can be French or foreign citizens. They will help write the association’s constitution and sign necessary documents.
 
 ### 3. **Create the Statutes (Bylaws)**
+
    The **statutes** (statuts) are the core documents that define the association’s governance structure, purpose, and rules. Here are the key elements usually included in the statutes:
-   - Name of the association
+   - Name of the association  (must be unique  = not already be used!)
    - Objective or purpose
    - Address of the association
    - Membership requirements (how to become a member, conditions of membership, etc.)
@@ -19,27 +20,40 @@ Creating an association in France is a fairly straightforward process but requir
    - Dissolution clause (what happens if the association is dissolved)
 
 ### 4. **Hold a General Assembly**
+
+1. Notice of Meeting with Agenda
+2. Hold the Meeting 
+	2.1 approve draft statutes via vote
+	2.2 elect president and secretary
+3. Produce final statutes
+4. produce minutes of the meeting 
+	4.1 date location participants
+	4.1 systematically mention "vote approved at 100% in favor, 0 against, and 0 abstentions"
+	4.1 statutes are finalized
+	4.1 mention  president is 
+	4.1 mention  secretary is 
+	4.1 is treasurer needed ?
+	4.1 sign the minutes by attendees
+
+	
    Once you’ve created the statutes, the founding members must hold a **General Assembly** to formally approve the statutes and elect the board of directors (if applicable). This step is not legally required, but it is highly recommended to have a clear governance structure in place from the start.
 
 ### 5. **Register the Association**
-   To officially create the association, you must register it with the **Préfecture** (local government office) of the area where the association is based. The steps to do this include:
-   - Completing the registration form (Cerfa form n° 13973*03).
-   - Submitting the association's statutes.
-   - Providing a list of the officers (names, addresses, and roles) of the association.
-   - Paying a registration fee (if applicable).
-   
+
+See https://www.service-public.fr/particuliers/vosdroits/R1757
+- Procès-verbal de l'assemblée constitutive ou son extrait daté et signé, portant le nom et le prénom du signataire 
+- Statuts de l'association datés et signés par au moins 2 personnes mentionnées sur la liste des dirigeants (  nom, prénom, et fonction 
+
    Once registered, your association will be given a **SIREN number** (business identification number), which allows it to operate legally in France.
 
-### 6. **Publish in the Official Journal**
-   After registering, your association must be published in the **Journal Officiel des Associations et Fondations d'Entreprise** (Official Journal of Associations and Foundations). This is a requirement for formal recognition.
 
-### 7. **Open a Bank Account**
+### 6. **Open a Bank Account**
    Your association will need a bank account in its name to manage funds and make transactions. To do so, you will need:
    - Proof of registration (SIREN number).
    - A copy of the statutes.
    - The names and positions of the association's officers.
 
-### 8. **Comply with Ongoing Obligations**
+### 7. **Comply with Ongoing Obligations**
    Once your association is created, you will need to ensure ongoing compliance with French laws, which may include:
    - Regular filing of financial statements.
    - Holding General Assemblies (typically once a year).
