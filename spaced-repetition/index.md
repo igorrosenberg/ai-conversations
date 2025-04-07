@@ -1,0 +1,6 @@
+* [00_requirements](<00_requirements.md>)
+* [01_answer](<01_answer.md>)
+* [02_Give me a list of steps to follow to have the app running locally. I must at least create files, run NPM, etc](<02_Give me a list of steps to follow to have the app running locally. I must at least create files, run NPM, etc.md>)
+* [10_requirements](<10_requirements.md>)
+* [11_answer](<11_answer.md>)
+* [12_ create a new Next.js project](<12_ create a new Next.js project.md>)
