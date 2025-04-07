@@ -110,15 +110,9 @@ These potential regulations are intended to clarify various points not covered b
 **ARTICLE 17 - DISSOLUTION**  
 The dissolution of the association can only be decided during a general assembly. One or more liquidators are appointed, and any assets, if applicable, are allocated to a non-profit association. The net assets cannot be distributed to any member of the association, even partially.
 
----
-
 Done at BIOT, on April 7, 2025
 
 **Surangama DASGUPTA, President**  
 **Lokeshwari LALA DASGUPTA, Secretary**  
 **Igor Rosenberg, Treasurer**  
 **Suramya Pushan DASGUPTA, Honorary Member**
-
---- 
-
-Let me know if you need further assistance!
