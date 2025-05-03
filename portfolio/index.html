@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igor Rosenberg - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e8e9ea;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-weight: 700;
+            color: black;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+        .introduction,
+        .project {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+            background-color: #fff;
+        }
+
+        .section-left {
+            flex: 1 1 500px;
+            padding: 20px;
+        }
+
+        .section-left p {
+            text-align: justify;
+            text-indent: 2em;
+        }
+
+        .section-right {
+            flex: 1 1 300px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .section-right img.screenshot {
+            max-width: 50%;
+            height: auto;
+            border: 1px solid #ccc;
+            align-items: center;
+        }
+
+        .project .section-right img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .logo {
+            width: 20%;
+            margin: 10px;
+            display: inline-block;
+            transition: transform 0.3s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.1);
+        }
+
+        .contact-info {
+            margin: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .contact-info a:hover {
+            color: #0056b3;
+        }
+
+        img.architecture {
+            width: 50%;
+            transition: opacity 0.3s ease;
+            display: block;
+            margin: 0 auto;
+        }
+
+        img.architecture, img.screenshot {
+            cursor: pointer;
+        }
+
+        img.architecture:hover, img.screenshot:hover {
+            opacity: 0.9;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            overflow: auto;
+        }
+
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90vh;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .profile-image {
+            width: 50%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Igor Rosenberg</h1>
+        <div class="section introduction">
+            <div class="section-left">
+                <p>I'm a versatile full-stack developer with over 20 years of experience in building, leading, and
+                    maintaining software solutions from concept to delivery. My passion lies in back-end
+                    development, where I specialize in creating robust, scalable systems that power modern
+                    applications. I thrive on taking full ownership of projects, ensuring clear goals, transparent
+                    processes, and tangible results. With a proven track record across cloud computing, insurance,
+                    and internet marketing, I've delivered high-impact solutions in diverse industries. I'm skilled
+                    at navigating complex domains and adapting technology to meet business needs, always focusing on
+                    driving value for end-users and stakeholders.</p>
+            </div>
+            <div class="section-right">
+                <img src="igor.jpg" alt="Igor Rosenberg" class="profile-image">
+            </div>
+        </div>
+        <div class="section introduction">
+            <div class="section-left">
+                <h2>Core Values</h2>
+                <ul>
+                    <li><b>Excellence</b>: I'm committed to delivering the highest quality outcomes. By constantly
+                        reflecting on my work, I identify opportunities for growth and integrate lessons learned
+                        into future projects.</li>
+                    <li><b>Clear (written) Communication</b>: I understand the importance of documentation in ensuring
+                        a
+                        shared understanding and reducing ambiguity throughout a project's lifecycle.</li>
+                    <li><b>Transparency & Honesty</b>: I value open, honest communication, and aim to foster
+                        trust-based
+                        relationships by sharing my thoughts and observations constructively.</li>
+                    <li><b>Distributed Ownership & Accountability</b>: I believe in empowering teams through shared
+                        responsibility. By promoting ownership, I help create environments where everyone feels
+                        invested in the success of the project.</li>
+                    <li><b>Customer Focus</b>: I am dedicated to building software that meets user needs and adds real
+                        value. I focus on usability, ensuring that every solution is intuitive and effective.
+                    </li>
+                </ul>
+                <h2>CV</h2>
+                <ul>
+                    <li><a href="2025-01.IgorRosenberg_CV_fr.pdf">CV in French</a></li>
+                    <li><a href="2025-04-IgorRosenberg_CV-en.pdf">CV in English</a></li>
+                </ul>
+                <h2>Contact</h2>
+                <div class="contact-info">
+                    <a href="#obfuscate" id="email"><i class="bi bi-envelope"></i> Email</a>
+                    <a href="#obfuscate" id="phone"><i class="bi bi-telephone"></i> Phone</a>
+                    <a href="https://www.linkedin.com/in/igorrosenberg/"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                    <a href="https://github.com/igorrosenberg/"><i class="bi bi-github"></i> GitHub</a>
+                </div>
+            </div>
+            <div class="section-right">
+                <h2>Proficiency</h2>
+                <ul>
+                    <li>Software development (maintenance and greenfield) - with a focus on performance,
+                        maintainability, and reusability of code.</li>
+                    <li>Code review and smart tests.</li>
+                    <li>Continuous improvement - tools and processes.</li>
+                    <li>Autonomy</li>
+                    <li>Problem-solving - existing or creative solutions.</li>
+                </ul>
+                <h2>Tech Stack</h2>
+                <ul>
+                    <li><b>Backend</b>: Spring, Java, Groovy, Kotlin, Python</li>
+                    <li><b>Frontend</b>: React.js, Vue.js, JQuery, JavaScript</li>
+                    <li><b>Databases</b>: PostgreSQL, MySQL</li>
+                    <li><b>Other</b>: Shell Scripting, Grails</li>
+                </ul>
+                <h2>Past Contributions</h2>
+                <div>
+                    <a href="https://www.mma.fr/"><img src="assets/Logo-MMA.png" alt="MMA" class="logo"></a>
+                    <a href="https://www.docaposte.com/"><img src="assets/Logo-docaposte.png" alt="Docaposte" class="logo"></a>
+                    <a href="https://uberall.com/"><img src="assets/Logo-uberall.svg" alt="uberall" class="logo"></a>
+                </div>
+            </div>
+        </div>
+        <div class="section project">
+            <div class="section-left">
+                <h3>Support Center</h3>
+                <h4>Why</h4>
+                <p class="why">
+                    Provide backend operators with a centralized, user-friendly interface for executing corrective scripts 
+                    (eg: deleting contracts, changing contract statuses, or inserting documents).
+                </p>
+                <ul>
+                    <li>Centralize backend operations in one UI and one datastore</li>
+                    <li>Easy access through search and hierarchy</li>
+                    <li>Validate user input</li>
+                    <li>Trace user actions</li>
+                </ul>
+                <h4>How</h4>
+                <ul>
+                    <li>Auto-generated UI based on <strong>React.js</strong> components</li>
+                    <li>A tiny API layer in <strong>java</strong>
+                        <ul>
+                            <li><i class="bi bi-lock"></i> Authentication/Authorization</li>
+                            <li><i class="bi bi-table"></i> one DB table support_script in
+                                <strong>PostGreSQL</strong>
+                            </li>
+                            <li><i class="bi bi-file-earmark-text"></i> Audit to File Server or AWS S3</li>
+                            <li><i class="bi bi-check-circle"></i> Validation of input</li>
+                            <li><i class="bi bi-gear"></i> Execution of script</li>
+                        </ul>
+                    </li>
+                </ul>
+                <img class="architecture" src="assets/Support-Center.drawio.png" alt="Support-Center architecture">
+            </div>
+            <div class="section-right">
+                    <img src="assets/support-center-screenshot.png"
+                        alt="Support Center Screenshot" class="screenshot">
+            </div>
+        </div>
+        <div class="section project">
+            <div class="section-left">
+                <h3>Auto-generated-backend-UI</h3>
+                <h4>Why</h4>
+                <ul>
+                    <li>Centralize in one single UI backend operations exposed from multiple micro-services</li>
+                    <li>Based on discovery of <b>Swagger/OpenAPI</b></li>
+                    <li>Trace user actions</li>
+                </ul>
+                <h4>How</h4>
+                <ul>
+                    <li>Auto-generated UI based on <strong>React.js</strong> components</li>
+                    <li>Micro-service discovery based on JSON or <b>Consul</b></li>
+                    <li>A tiny API layer in <strong>java</strong></li>
+                    </ul>
+                <img class="architecture" src="assets/Auto-Generated-Backend-UI.drawio.png" alt="Support-Center architecture">
+            </div>
+            <div class="section-right">
+                    <img src="assets/Auto-Generated-Backend-UI-screenshot.png" 
+                        alt="Auto-generated-backend-UI Screenshot"  class="screenshot">
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Get the modal
+        const modal = document.getElementById("imageModal");
+        const modalImg = document.getElementById("modalImage");
+        const closeBtn = document.getElementsByClassName("close")[0];
+
+        // Add click event to all architecture images
+        document.querySelectorAll('img.architecture, img.screenshot').forEach(img => {
+            img.onclick = function() {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            }
+        });
+
+        // Close modal when clicking the close button
+        closeBtn.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // Close modal when clicking outside the image
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+    <script>
+        // Obfuscation
+        const emailParts = ['mailto:', 'igor', '.rosenberg', '.pro', '@', 'gmail', '.com'];
+        const emailElement = document.getElementById('email');
+        emailElement.setAttribute('href', emailParts.join(''));
+        
+        const phoneParts = ['tel:', '+33', '6', '95', '65', '47', '59'];
+        const phoneElement = document.getElementById('phone');
+        phoneElement.setAttribute('href', phoneParts.join(''));
+    </script>
+</body>
+
+</html>
