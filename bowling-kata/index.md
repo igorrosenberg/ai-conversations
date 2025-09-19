@@ -1,0 +1,5 @@
+* [CLAUDE](<CLAUDE.md>)
+* [details](<details.md>)
+* [hints](<hints.md>)
+* [rules](<rules.md>)
+* [structure](<structure.md>)
