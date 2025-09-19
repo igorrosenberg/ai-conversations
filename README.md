@@ -10,5 +10,6 @@ Why ?
 :warning: **THIS MIGHT NOT BE USEFUL TO THE GENERAL PUBLIC** :warning:
 
 * [association/](association/index.md)
+* [bowling-kata/](bowling-kata/index.md)
 * [portfolio/](portfolio/index.md)
 * [spaced-repetition/](spaced-repetition/index.md)
